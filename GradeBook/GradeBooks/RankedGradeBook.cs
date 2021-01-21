@@ -24,7 +24,7 @@ namespace GradeBook.GradeBooks
                 grades.Add(student.AverageGrade);
             }
 
-            grades.Sort((x, y) => y.CompareTo(x);
+            grades.Sort((x, y) => y.CompareTo(x));
 
             for (int i = 0; i < grades.Count; i++)
             {
